@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <input type="text" class="searchBox" id="myInput" onkeyup="myFunction()" placeholder="Search..">
+
+                <ul id="myUL">
+                    <li class="list drag" draggable="true"><a href="#">Temperature</a></li>
+                    <li class="list drag" draggable="true"><a href="#">Humidtiy</a></li>
+                    <li class="list drag" draggable="true"><a href="#">Current</a></li>
+                    <li class="list drag" draggable="true"><a href="#">Voltage</a></li>
+                    <li class="list drag" draggable="true"><a href="#">Power</a></li>
+                  </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="gridContainer">
+                <p style="color: black;">Number of Grids</p>
+                <input type="number" class="searchBox" id="numberInput" onfocus="this.value=''">
+                <button id="button" class="goButton">Go</button>
+                <div id="container" class="drop"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>

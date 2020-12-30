@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+  }
+  
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    width: 20rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    color: black;
+  }
+  
+.list{
+    text-decoration: none ;
+    list-style: none;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color:#93C5FD;
+    width: 20rem;
+    padding:1rem 1rem;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+.column {
+    float: left;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 2rem;
+    width: 30rem;    
+    margin-top: 2rem;
+    margin-right: 2rem;
+    height: 55em;
+  }
+
+  .gridContainer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 2rem;
+    width: 70rem;    
+    margin-top: 2rem;
+    margin-right: 2rem;
+    height: 55rem;
+  }
+  
+  .goButton{
+      margin-left:1rem;
+      width: 100px;
+      height: 50px;
+      background-color: #93C5FD;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+  #numberInput{
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    width: 25rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: black;
+  }
+
+  .squares {
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #container {
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+ 
